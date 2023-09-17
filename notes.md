@@ -8,7 +8,3 @@ git commands:
 
 // Pulling from GitHub to computer
 -> git pull
-
-// Merging notes
--> git config pull.rebase false
-

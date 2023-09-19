@@ -8,3 +8,6 @@ git commands:
 
 // Pulling from GitHub to computer
 -> git pull
+
+// Update GitHub Origin
+-> git remote set-url origin <new url>

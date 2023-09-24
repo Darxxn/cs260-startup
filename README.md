@@ -1,1 +1,9 @@
-# cs260-startup
+#  Voter
+
+## Description deliverable
+
+### Elevator pitch
+
+
+
+### Design

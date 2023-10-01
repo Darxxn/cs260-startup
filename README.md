@@ -97,3 +97,31 @@ For this deliverable I used webSocket to update the choices, points, and message
 ## React deliverable
 
 Not quite sure what this is yet.
+
+
+
+
+
+**HTML Startup Assignment:**
+
+Home HTML
+I changed the head icon to Pixel Castle.png
+Title to BlendrBox
+Changed the Score html to "LeaderBoards."
+Header on the page to BlendrBox
+Changed to "Welcome to BlendrBox"
+Added "Password" and a fill in box, moved the Login button down
+Added my GitHub Repo to the link
+
+About HTML
+Changed the picture to a picture of a pixel dragon
+Changed the text in the textbox
+
+Scores HTML
+Made changes to the score table
+
+Play HTML
+Made changes to main, "- started a new game/scored 337 points."
+Changed "Start Journey"
+Added styling to the pictures and the text under
+Made a table with the different buttons to choose later

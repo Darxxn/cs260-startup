@@ -74,7 +74,7 @@ For this deliverable I implemented by JavaScript so that the application works f
 
 ## Service deliverable
 
-For this deliverable I added backend endpoints that receives choices and returns the choice points, along with realtime chat messages.
+For this deliverable I added backend endpoints that receives choices and returns the choice points.
 
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for choices/points, messages.
 

@@ -80,7 +80,7 @@ For this deliverable I added backend endpoints that receives choices and returns
 
 ## DB deliverable
 
-Will used this to store choices/points, messages in the database.
+Used to store scores (with corresponding usernames), and user login/password information
 
 ## Login deliverable
 

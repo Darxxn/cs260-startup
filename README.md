@@ -92,15 +92,11 @@ For this deliverable I associate the choices, points, and messages with the logg
 
 ## WebSocket deliverable
 
-For this deliverable I used webSocket to update the choices, points, and messages on the frontend in realtime.
+Used websocket to have real time updates of players playing
 
 ## React deliverable
 
 Not quite sure what this is yet.
-
-
-
-
 
 **HTML Startup Assignment:**
 

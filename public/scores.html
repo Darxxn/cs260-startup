@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeaderBoards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="scores.css"/>
+    <link rel="icon" href="Pixel Castle.png" />
+  </head>
+  <body>
+    <header>
+      <div class = "center-blender">
+        <h1>BlendrBox<sup>&reg;</sup></h1>
+      </div>
+
+      <div class="icon-container">
+        <a href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
+
+        <a href="scores.html">
+          <i class="fas fa-trophy"></i>
+        </a>
+
+        <a href="play.html">
+          <i class="fas fa-gamepad"></i>
+        </a>
+
+        <a href="about.html">
+          <i class="fas fa-info-circle"></i>
+        </a>
+      </div>
+
+    </header>
+
+    <main>
+      <div class="leaderboard">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Score</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <span class="text-reset">Author Name(s)</span>
+      <br />
+    <a href="https://github.com/Darxxn/cs260-startup.git"> GitHub</a>
+    </footer>
+
+    <script src="scores.js"></script>
+  </body>
+</html>

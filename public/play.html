@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>Blendr Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="play.css"/>
+    <link rel="icon" href="Pixel Castle.png" />
+  </head>
+  <body>
+    <header>
+      <div class = "center-blender">
+        <h1>BlendrBox<sup>&reg;</sup></h1>
+      </div>
+
+      <div class="top-right-container">
+        <div class="icon-container">
+          <a href="index.html">
+            <i class="fas fa-home"></i>
+          </a>
+  
+          <a href="scores.html">
+            <i class="fas fa-trophy"></i>
+          </a>
+  
+          <a href="play.html">
+            <i class="fas fa-gamepad"></i>
+          </a>
+  
+          <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+          </a>
+        </div>
+        
+        <div class="player-info">
+          Welcome,
+          <span class="player-name" id="playername"></span>
+        </div>
+        <!-- <div class="player-password">
+          Password:
+          <span class="player-pas" id="playerpassword"></span>
+        </div> -->
+      </div>
+      
+
+    </header>
+
+    <main>
+
+      <div>
+        <button id="startJourneyButton" onclick="startGame()">Start Journey</button>
+      </div>
+
+      <style>
+        button {
+            margin: 15px;
+        }
+      </style>
+
+      <style>
+        td {
+            padding: 50px; /* You can adjust the padding value to control the spacing */
+        }
+      </style>
+
+      <div class="center-choices">
+        <div class="character-container">
+          <button id="Knight" class="character-button" onclick="checkPattern('Knight')">
+            <img src="pixel-knight.png" alt="Knight" class="character-image">
+          </button>
+          <label>Knight</label>
+        </div>
+
+        <div class="character-container">
+          <button id="Ranger" class="character-button" onclick="checkPattern('Ranger')">
+            <img src="ranger.png" alt="Ranger" class="character-image">
+          </button>
+          <label>Ranger</label>
+        </div>
+
+        <div class="character-container">
+          <button id="Wizard" class="character-button" onclick="checkPattern('Wizard')">
+            <img src="wizard.png" alt="Wizard" class="character-image">
+          </button>
+          <label>Wizard</label>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <span class="text-reset">Author Name(s)</span>
+      <br />
+      <a href="https://github.com/Darxxn/cs260-startup.git"> GitHub </a> 
+  </footer>
+
+  <script src="play.js"></script>
+  
+  </body>
+</html>

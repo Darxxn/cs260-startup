@@ -15,7 +15,7 @@ default keyword
 return (JS keyword)
 -> whatever comes after is returned as a value to the caller of the function
 
-<button> is a JSX element.
+"<button>" is a JSX element.
 -> A JSX element is a combination of JS code and HTML tags that describes what you'd like to display.
 
 className = "square"
